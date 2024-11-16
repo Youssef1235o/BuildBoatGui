@@ -1,0 +1,7 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/kav"))()
+local Window = Library.CreateLib("Build A Boat made by Youssef", "BloodTheme")
+local Tab = Window:NewTab("Build A Boat")
+local Section = Tab:NewSection("Build A Boat For Treasure")
+Section:NewButton("Farm Gold", "ButtonInfo", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/catblox1346/BasketsBuildaBoatGui/main/basket_fastestautofarmv1.0"),true))()
+end)
